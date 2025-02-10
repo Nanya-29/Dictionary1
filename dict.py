@@ -1,61 +1,61 @@
-# #create a dictionary
+#create a dictionary
 
-# dict1={
-#     "name":"Aananya",
-#     "age":13,
-#     "Gender":"female"
-# }
+dict1={
+    "name":"Aananya",
+    "age":13,
+    "Gender":"female"
+}
 
-# #printing/ accessing values from a dictionary
+#printing/ accessing values from a dictionary
 
-# print(dict1)
-# print(dict1["name"])
-# print(dict1["Gender"])
+print(dict1)
+print(dict1["name"])
+print(dict1["Gender"])
 
-# # get all the keys
+# get all the keys
 
-# print(dict1.keys())
+print(dict1.keys())
 
-# #get all the values
+#get all the values
 
-# print(dict1.values())
+print(dict1.values())
 
-# #get the list of keys and values
+#get the list of keys and values
 
-# for i in dict1.keys():
-#     print(i,dict1[i])
+for i in dict1.keys():
+    print(i,dict1[i])
 
-# #checking if a key exists in dictionary
+#checking if a key exists in dictionary
 
-# a=input("Enter the key to be checked: ")
-# if a in dict1:
-#     print("key exists")
-# else:
-#     print("key does not exist")
+a=input("Enter the key to be checked: ")
+if a in dict1:
+    print("key exists")
+else:
+    print("key does not exist")
 
-# # Add a key-value pair in the dictionary
+# Add a key-value pair in the dictionary
 
-# dict1["Profession"]="Scientist"
-# print(dict1)
+dict1["Profession"]="Scientist"
+print(dict1)
 
-# # delete a key value pair from a dictionary
+# delete a key value pair from a dictionary
 
-# del(dict1["Gender"])
-# print(dict1)
+del(dict1["Gender"])
+print(dict1)
 
-# # Changing a value in the dictionary
+# Changing a value in the dictionary
 
-# dict1["Profession"]="Software engineer"
-# print(dict1)
+dict1["Profession"]="Software engineer"
+print(dict1)
 
 
-# # store a list as a value
+# store a list as a value
 
-# dict1["Marks"]=[95, 97, 100, 98]
-# print(dict1)
+dict1["Marks"]=[95, 97, 100, 98]
+print(dict1)
 
-# # accessing an item in the list stored in the dictionary
-# print(dict1["Marks"][1])
+# accessing an item in the list stored in the dictionary
+print(dict1["Marks"][1])
 
 # make a nested dictionary
 
